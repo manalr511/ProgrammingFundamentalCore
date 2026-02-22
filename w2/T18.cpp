@@ -1,8 +1,7 @@
 #include <iostream>
 using namespace std;
 int main(){
-
-cout << "           ===================================================  " << endl;
+cout << "           ===================================================   " << endl;
 cout << "                           SMARTSHOP MANAGER                     " << endl;
 cout << "           ===================================================    " << endl;
 cout << "               Inventory  |  Sales  |  Billing  | Reports        " << endl;
@@ -31,6 +30,17 @@ cout << "           A/D   - Move Left / Right                      " << endl;
 cout << "           SPACE - Shoot                                     " << endl;
 cout << "           Q     - Quit Game                                    " << endl;
 cout << " \n                                                               " << endl;
+cout << "                                  :^:                             " << endl;
+cout << "                                  | |                               " << endl;
+cout << "                                  |O|                               " << endl;
+cout << "                                  | |                                " << endl;
+cout << "                                 /| |\\                                  " << endl;
+cout << "                                / | | \\                                " << endl;
+cout << "                               /  | |  \\                                " << endl;
+cout << "                              /___| |___\\                                    " << endl;
+cout << "                                  |||                                        " << endl;
+cout << "                                 /|||\\                                        " << endl;
+cout << "                               |/ `+' \\|                                       " << endl;
 cout << "           ---------------------------------------------------     " << endl;
 return 0; 
 
