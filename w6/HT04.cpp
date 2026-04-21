@@ -8,7 +8,7 @@ for (int i=0;i<n;i++){
     cin>>name[i];
 }
 
-cout<<"student names are "<<name[5]<<endl;
+cout<<"student names are : "<<name[5]<<endl;
 for (int i=0;i<n;i++){
     cout<<name[i]<<endl;
 }

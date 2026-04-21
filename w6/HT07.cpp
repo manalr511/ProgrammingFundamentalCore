@@ -8,11 +8,11 @@ main(){
     cout<<"enter the number of products:";
     cin>>num;
     for (int i=0;i<num;i++){
-        cout<<"enter the price of "<<i+1<<"product";
+        cout<<"enter the price of "<<i+1<<" product :";
         cin>>productname[i];
-        cout<<"enter the price of"<<productname[i]<<":$";
+        cout<<"enter the price of "<< productname[i]<<" :$";
         cin>>price[i];
-        cout<<"enter the quantity of"<<productname[i];
+        cout<<"enter the quantity of "<< productname[i] << ":";
         cin>>quant[i];
     }
     float total[num];
