@@ -771,17 +771,49 @@ void sortPetsByAge()
         {
             if (petageA[i] > petageA[j])
             {
-                swap(petnameA[i], petnameA[j]);
-                swap(petageA[i], petageA[j]);
-                swap(breedA[i], breedA[j]);
-                swap(ownernameA[i], ownernameA[j]);
-                swap(diseaseA[i], diseaseA[j]);
-                swap(appointmentdateA[i], appointmentdateA[j]);
-                swap(totalbillA[i], totalbillA[j]);
-                swap(visitA[i], visitA[j]);
-                swap(TdateA[i], TdateA[j]);
-                swap(TdesA[i], TdesA[j]);
-                swap(assignedVetA[i], assignedVetA[j]);
+                string tempName = petnameA[i];
+                petnameA[i] = petnameA[j];
+                petnameA[j] = tempName;
+
+                string tempAge = petageA[i];
+                petageA[i] = petageA[j];
+                petageA[j] = tempAge;
+
+                string tempBreed = breedA[i];
+                breedA[i] = breedA[j];
+                breedA[j] = tempBreed;
+
+                string tempOwner = ownernameA[i];
+                ownernameA[i] = ownernameA[j];
+                ownernameA[j] = tempOwner;
+
+                string tempDisease = diseaseA[i];
+                diseaseA[i] = diseaseA[j];
+                diseaseA[j] = tempDisease;
+
+                string tempAppointment = appointmentdateA[i];
+                appointmentdateA[i] = appointmentdateA[j];
+                appointmentdateA[j] = tempAppointment;
+
+                float tempBill = totalbillA[i];
+                totalbillA[i] = totalbillA[j];
+                totalbillA[j] = tempBill;
+
+                int tempVisit = visitA[i];
+                visitA[i] = visitA[j];
+                visitA[j] = tempVisit;
+
+                string tempTdate = TdateA[i];
+                TdateA[i] = TdateA[j];
+                TdateA[j] = tempTdate;
+
+                string tempTdes = TdesA[i];
+                TdesA[i] = TdesA[j];
+                TdesA[j] = tempTdes;
+
+                string tempVet = assignedVetA[i];
+                assignedVetA[i] = assignedVetA[j];
+                assignedVetA[j] = tempVet;
             }
         }
     }
