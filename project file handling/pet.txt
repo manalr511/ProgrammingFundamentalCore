@@ -1,1 +1,5 @@
-mao|6 years|stray|manal|calci|09-09-09|09-09-09|shot 2|2500|2|dr mmm
+mao|5|stray|manal|calci|09-09-09|09-09-09|shot 2|2500|2|dr mmm
+milli|3|stray|bobby|calci|09-09-09|||200|1|
+mika|6|punched face|abd|fever||||0|0|
+kiko|6|stray|man|liver issue||||0|0|
+miloo|7|short hair|abd|routine checkup|09-09-09|090-09-09|checkup done|0|0|dr kkk
